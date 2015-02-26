@@ -98,18 +98,3 @@
 
 
 
-$(document).ready(function(){
-    $("button").click(function(){
-        $.getJSON("js/barclaybank.json", function(data){
-
-      		/*for (var i = 0; i < data.length; i++) {
-      			console.log(data);
-      		};*/
-	     	$.each(data, for (var i = 0; i < data.length; i++) {
-	     		console.log(data);
-	     	});
-        });
-		   
-		        
-		    });
-    });
